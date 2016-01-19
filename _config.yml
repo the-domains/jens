@@ -1,28 +1,40 @@
-name: jens
-favicon: null
-layout_spectrum: 0.7585539715364575
-typography_spectrum: 0.006683150306344032
-cta:
-  domain: null
-  bucket: null
-  version: null
-analytics:
-  google: null
-  facebook: null
-  twitter: null
+layout_spectrum: 0.2595745
 opengraph:
   image: null
   type: null
   appId: null
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
+purpose: []
 color:
+  saturation: 0.9631236910354346
+  brandStrength: 0.05753270094282925
+  rhythmicContrast: 0.1295281765051186
   brandColors:
     - '#9D2D3C'
     - '#DDE4DD'
     - '#BCAB47'
     - '#6B574B'
     - '#160600'
-  brandStrength: 0.05753270094282925
-  lightness: 0.16779317590408027
-  saturation: 0.9631236910354346
-  rhythmicContrast: 0.1295281765051186
-purpose: []
+  lightness: 0.1677931759040803
+typography_spectrum: 0.2489362
+cta:
+  bucket: null
+  version: null
+  domain: null
+analytics:
+  twitter: null
+  google: null
+  facebook: null
+favicon: null
+name: jens
